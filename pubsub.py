@@ -30,7 +30,7 @@ topic_id = 'getpost'
 url = f'https://pubsub.googleapis.com/v1/projects/{project_id}/topics/{topic_id}:publish'
 count = 0
 
-
+print('Someting')
 try:
     # Load the service account key
     # Prepare your message (ensure to base64 encode the data)
